@@ -1,0 +1,1 @@
+The submitted paper revisits a previously published sensor drift dataset. It applies state of the art machine learning and a new method that allows the model to extrapolate better. The general technique shows progress evaluated here, but it could be applied to other domains as well.

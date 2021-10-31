@@ -1,0 +1,29 @@
+###############################################################################
+#
+# Sensor Drift
+#
+###############################################################################
+
++Group="GRAD"
++Project="THEORY"
++ProjectDescription="run evolutionary computation experiments"
+
+notification = Error
+notify_user = jamie@cs.utexas.edu
+
+Error = log/err.log
+Output = log/out.log
+Log = log/log.log
+universe = vanilla
+
+####################################
+### Train variants on backprop
+Executable = run_target_python_file.sh
+# "Step" is automatically initialized to the current index
+arguments = $(Script) -n $(Step)
+Queue 300 Script in main_backprop_nocontext_big.py
+#main_backprop_context.py, main_backprop_ensemble.py, main_backprop_nocontext.py, main_backprop_context_lstm.py, main_backprop_context_relu.py
+#main_backprop_context.py, main_backprop_context_share.py, main_backprop_ensemble.py, main_backprop_nocontext.py, main_backprop_context_lstm.py, main_backprop_context_long.py
+#main_backprop_context.py, main_backprop_context_share.py, main_backprop_ensemble.py, main_backprop_nocontext.py, main_backprop_context_lstm.py, main_backprop_context_long.py
+####################################
+

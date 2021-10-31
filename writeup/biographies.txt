@@ -1,0 +1,22 @@
+Jamieson Warner is a Ph.D student in the Neuroscience Graduate Program
+at the University of Texas at Austin. He received a B.S. in Computer
+Sciences and Mathematics at the University of Wisconsin-Madison in
+2017. Currently, he researches machine learning models of the nervous system.
+
+Ashwin Devaraj is an undergraduate student at the University of Texas
+at Austin majoring in Computer Science and Mathematics. His interests
+include His interests include natural language processing, computer
+vision, and differential geometry.
+
+Risto Miikkulainen is a Professor of Computer Science at the
+University of Texas at Austin and Associate VP of Evolutionary AI at
+Cognizant. He received an M.S. in Engineering from Helsinki University
+of Technology (now Aalto University) in 1986, and a Ph.D. in Computer
+Science from UCLA in 1990.  His current research focuses on methods
+and applications of neuroevolution, as well as neural network models
+of natural language processing and vision; he is an author of over 430
+articles in these research areas. Risto is an IEEE Fellow; his work on
+neuroevolution has recently been recognized with the IEEE CIS
+Evolutionary Computation Pioneer Award, the Gabor Award of the
+International Neural Network Society and Outstanding Paper of the
+Decade Award of the International Society for Artificial Life.

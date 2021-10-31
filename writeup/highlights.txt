@@ -1,0 +1,5 @@
+1. Recurrent neural networks learned to represent contextual information extracted from sequences of sensor array recordings.
+
+2. Compared to neural networks without context, neural networks with context more accurately classified samples affected by sensor drift from an unseen time window.
+
+3. The neural networks with context generalized better to unseen sensor drift settings than did ensembles of support vector machines (SVMs).

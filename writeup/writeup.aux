@@ -1,0 +1,74 @@
+\relax 
+\providecommand{\transparent@use}[1]{}
+\newlabel{FirstPage}{{}{1}{}{}{}}
+\@writefile{toc}{\contentsline {title}{Using context to make gas classifiers robust to sensor drift}{1}{}}
+\@writefile{toc}{\contentsline {abstract}{Abstract}{1}{}}
+\citation{dickinson_current_1998,barsan_metal_2007}
+\citation{marco_signal_2012}
+\citation{marco_signal_2012}
+\citation{thomas-danguin_perception_2014}
+\citation{vito_pattern_2016}
+\citation{imam_rapid_2019}
+\citation{vergara_chemical_2012}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Recognizing odor despite sensor drift.} (\textbf  {A.}) The first sensor feature dimension is plotted for all samples of the gas acetone. Vertical dashed lines mark the boundaries of the ten batches. There is variability within as well as between batches. (\textbf  {B.}) For thirty trials, four feedforward networks are trained using a single batch of training data indicated by the vertical dashed lines and colors. The mean classification accuracies evaluated on each batch are shown along with 95\% confidence interval. The variability of response to a single odor poses a challenge to odor recognition. (\textbf  {C.}) Mean accuracy along with 95\% confidence interval is shown as a function of the absolute distance between the training batch and the evaluation batch. The further away the testing batch is from the training batch, the lower the generalization accuracy becomes.}}{2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{2}{}}
+\citation{vergara_chemical_2012}
+\citation{pardo_remarks_2004}
+\citation{marco_recent_2009}
+\citation{fu_pattern_2007}
+\citation{kay_odor-_1999}
+\citation{shipley_functional_1996}
+\citation{adams_top-down_2019}
+\citation{vergara_chemical_2012}
+\citation{vergara_chemical_2012}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Related Work}{3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Methods}{3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Dataset description}{3}{}}
+\citation{vergara_chemical_2012}
+\citation{pedregosa_scikit-learn_2011}
+\citation{chang_libsvm_2011}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Neural network architectures.} (\textbf  {A}.) Feature vectors and target labels were sampled from batches 1, 2, and 10 to illustrate the data format. Each sample is represented by a row of feature values from the sensor array in grayscale, along with the identifier (1 through 5) of the corresponding odor shown in color. The data consisted ten ordered batches, or data collection windows. (\textbf  {B}.) A feature vector is input to a collection of SVMs, and the weighted sum of their class predictions is taken to be the output of the ensemble. (\textbf  {C}.) A schematic of the feedforward model delineates feedforward progression of input through two hidden layers $\mathbf  {s}$ and $\mathbf  {d}$ followed by the output layer $\mathaccentV {hat}05E{\mathbf  {y}}$. (\textbf  {D}.) A schematic of the context model introduces a sequential processing of prior samples as a separate processing pathway. For each context batch from $s$ through $p-1$, one sample per odor class is chosen as a representative.}}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Support vector machines}{4}{}}
+\citation{rumelhart_learning_1986}
+\citation{pardo_remarks_2004}
+\citation{paszke_pytorch_2019}
+\citation{hochreiter_long_1997}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Artificial neural networks}{5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1}The feedforward model}{5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2}The context model}{5}{}}
+\citation{vergara_chemical_2012}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces \textbf  {Mean generalization performance.} Listed is the classification accuracy (correct / total) of various models evaluated on the unseen testing data, i.e., batch $T$. The values represent the average accuracy over 30 trials. The final column lists the mean of the values for batches 3 through 10. A bolded value is significantly greater than the others in the same column ($p < 0.05$, two-sided pairwise t-test with correction for unequal variances).}}{6}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Experiments}{6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Drift demonstration}{6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Ensemble models}{6}{}}
+\citation{vergara_chemical_2012}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Generalization accuracy.} The generalization accuracy of each model was evaluated on batch $T$. For each model type and every batch, 30 models were trained. The line represents the average over the 30 trials, and the error bar is the 95\% confidence interval. (\textbf  {A}.) The feedforward and feedforward+context models are shown with the other models faded out. The context most contributes to performance in the later batches, which offer the longest context sequences. (\textbf  {B}.) The SVM ensemble and feedforward NN ensemble models are shown with the results from (A) are shown faded out. Both ensemble models are variable in performance between batches. }}{7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Context}{7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Discussion}{7}{}}
+\citation{adams_top-down_2019}
+\bibcite{adams_top-down_2019}{{1}{}{{}}{{}}}
+\bibcite{barsan_metal_2007}{{2}{}{{}}{{}}}
+\bibcite{chang_libsvm_2011}{{3}{}{{}}{{}}}
+\bibcite{dickinson_current_1998}{{4}{}{{}}{{}}}
+\bibcite{fu_pattern_2007}{{5}{}{{}}{{}}}
+\bibcite{hochreiter_long_1997}{{6}{}{{}}{{}}}
+\bibcite{imam_rapid_2019}{{7}{}{{}}{{}}}
+\bibcite{kay_odor-_1999}{{8}{}{{}}{{}}}
+\bibcite{marco_recent_2009}{{9}{}{{}}{{}}}
+\bibcite{marco_signal_2012}{{10}{}{{}}{{}}}
+\bibcite{pardo_remarks_2004}{{11}{}{{}}{{}}}
+\bibcite{paszke_pytorch_2019}{{12}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Conclusion}{8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Acknowledgments}{8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}References}{8}{}}
+\bibcite{pedregosa_scikit-learn_2011}{{13}{}{{}}{{}}}
+\bibcite{rumelhart_learning_1986}{{14}{}{{}}{{}}}
+\bibcite{shipley_functional_1996}{{15}{}{{}}{{}}}
+\bibcite{thomas-danguin_perception_2014}{{16}{}{{}}{{}}}
+\bibcite{vergara_chemical_2012}{{17}{}{{}}{{}}}
+\bibcite{vito_pattern_2016}{{18}{}{{}}{{}}}
+\bibdata{writeupNotes}
+\bibstyle{myplain}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\newlabel{LastBibItem}{{18}{9}{}{}{}}
+\newlabel{LastPage}{{}{9}{}{}{}}
